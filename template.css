@@ -22,12 +22,32 @@ body {
     font-size: 18px;
 }
 
-.header-content h1 {
-    margin: 0;
+.header-title {
     color: #f9faf8 ;
     font-size: 48px;
     font-weight: 900;
 }
 
+button {
+    font-size: 18px;
+}
+
+button, 
+.subscription-container {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+.subscription-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
 
 
