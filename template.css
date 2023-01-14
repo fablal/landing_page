@@ -17,6 +17,12 @@ body {
     font-weight: bold;
 }
 
+.header-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .header-links,
 .header-content {
     color: #e5e7eb;
