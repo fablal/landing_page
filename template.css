@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,700&display=swap');
 
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .header,
@@ -19,7 +20,6 @@ body {
 .header-links,
 .header-content {
     color: #e5e7eb;
-    font-size: 18px;
 }
 
 .header-title {
@@ -50,4 +50,18 @@ button,
     font-weight: 900;
 }
 
+.info-card {
+    font-size: 18px;
+}
 
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    background-color: #e5e7eb;
+}
+
+.quote-author {
+    font-weight: 900;
+}
