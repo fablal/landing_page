@@ -7,9 +7,34 @@
 }
 
 body {
+    color: #1f2937;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header,
+.quote,
+.subscription,
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar,
+.hero,
+.info,
+.quote-text,
+.subscription-container {
+    max-width: 900px;
 }
 
 .header,
@@ -42,10 +67,7 @@ body {
     background-color: gray;
 }
 
-
-
 .info-title {
-    color: #1f2937;
     font-size: 36px;
     font-weight: 900;
 }
@@ -58,10 +80,10 @@ body {
     width: 150px;
     height: 150px;
     border: 4px solid #3882f6;
+    border-radius: 15px;
 }
 
 .quote {
-    color: #1f2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -69,20 +91,25 @@ body {
 }
 
 .quote-author {
+    font-size: 24px;
+    font-style: normal;
     font-weight: 900;
 }
 
 button {
-    padding: 8px 24px;
+    padding: 8px 36px;
     border: 0;
     font-size: 18px;
+    font-weight: 700;
 }
 
 button, 
 .subscription-container {
     color: #f9faf8;
     background-color: #3882f6;
+    border-radius: 8px;
 }
+
 
 .subscription-container button {
     border: 4px solid #f9faf8;
@@ -92,3 +119,4 @@ button,
     font-size: 24px;
     font-weight: bold;
 }
+
