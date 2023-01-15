@@ -42,20 +42,6 @@ body {
     background-color: gray;
 }
 
-button {
-    font-size: 18px;
-}
-
-button, 
-.subscription-container {
-    color: #f9faf8;
-    background-color: #3882f6;
-}
-
-.subscription-title {
-    font-size: 24px;
-    font-weight: bold;
-}
 
 
 .info-title {
@@ -68,6 +54,12 @@ button,
     font-size: 18px;
 }
 
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+}
+
 .quote {
     color: #1f2937;
     font-size: 36px;
@@ -78,4 +70,25 @@ button,
 
 .quote-author {
     font-weight: 900;
+}
+
+button {
+    padding: 8px 24px;
+    border: 0;
+    font-size: 18px;
+}
+
+button, 
+.subscription-container {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+.subscription-container button {
+    border: 4px solid #f9faf8;
+}
+
+.subscription-title {
+    font-size: 24px;
+    font-weight: bold;
 }
