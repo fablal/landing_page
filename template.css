@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+/****************************************/
+/*        COLORS AND FONT STYLES        */
+/****************************************/
+
 body {
     color: #1f2937;
     font-family: 'Roboto', sans-serif;
@@ -49,6 +53,10 @@ button {
     font-weight: 900;
 }
 
+.hero-image {
+    background-color: gray;
+}
+
 .info-title {
     font-size: 36px;
     font-weight: 900;
@@ -82,6 +90,7 @@ button {
 .subscription-container {
     color: #f9faf8;
     background-color: #3882f6;
+    border-radius: 16px;
 }
 
 .subscription-container button {
@@ -91,6 +100,67 @@ button {
 .subscription-title {
     font-size: 22px;
     font-weight: 700;
+}
+
+/****************************************/
+/*           FLEX ALIGNMENT             */
+/****************************************/
+
+.header-container,
+.info-container,
+.quote-container,
+.subscription-container {
+    width: 900px;
+}
+
+.header,
+.quote,
+.subscription {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content button {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
