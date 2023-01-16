@@ -121,9 +121,10 @@ button {
 }
 
 .navbar {
-    padding: 16px 0;
+    padding-top: 16px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
@@ -133,6 +134,12 @@ button {
 }
 
 .hero {
+    height: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
     display: flex;
 }
 
