@@ -57,19 +57,34 @@ button {
     background-color: gray;
 }
 
+.info {
+    padding: 48px;
+}
+
 .info-title {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 
 .info-card {
     width: 200px;
+    text-align: center;
+}
+
+.info-title,
+.info-container {
+    margin-bottom: 48px;
 }
 
 .info-image {
     border: 4px solid #3882f6;
     border-radius: 16px;
     height: 200px;
+}
+
+.info-subtext {
+    padding: 8px 16px;
 }
 
 .quote {
@@ -107,7 +122,7 @@ button {
 /****************************************/
 
 .header-container,
-.info-container,
+/* .info-container, */
 .quote-container,
 .subscription-container {
     width: 900px;
@@ -167,8 +182,12 @@ button {
 
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 48px;
 }
+
+
 
 .footer {
     display: flex;
