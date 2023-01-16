@@ -18,6 +18,7 @@ a {
 
 button {
     border: 0;
+    border-radius: 8px;
     color: #f9faf8;
     background-color: #3882f6;
     font-size: 18px;
@@ -71,6 +72,10 @@ button {
 .subscription-container {
     color: #f9faf8;
     background-color: #3882f6;
+}
+
+.subscription-container button {
+    border: 3px solid #f9faf8;
 }
  
 .subscription-title {
