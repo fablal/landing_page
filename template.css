@@ -54,6 +54,16 @@ button {
     font-weight: 900;
 }
 
+.info-card {
+    width: 200px;
+}
+
+.info-image {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    height: 200px;
+}
+
 .quote {
     background-color: #e5e7eb;
 }
