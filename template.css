@@ -13,14 +13,69 @@ body {
 }
 
 a {
-    color: inherit;
     text-decoration: none;
+}
+
+button {
+    border: 0;
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 36px;
 }
 
 .header,
 .footer {
     color: #f9faf8;
     background-color: #1f2937;    
+}
+
+.header-logo a {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero-subtext,
+.header-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.subscription-container {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+ 
+.subscription-title {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .footer {
