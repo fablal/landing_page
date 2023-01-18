@@ -172,6 +172,7 @@ button {
 .hero-content button {
     margin-top: 16px;
     margin-bottom: 8px;
+    flex-shrink: 0;
 }
 
 .hero-image {
@@ -225,6 +226,7 @@ button {
 }
 
 .footer {
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
