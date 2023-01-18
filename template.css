@@ -21,13 +21,14 @@ a {
 }
 
 button {
-    border: 0;
+    border: 3px solid #3882f6;
     border-radius: 8px;
+    padding: 6px 36px;
     color: #f9faf8;
     background-color: #3882f6;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
-    padding: 8px 36px;
+    
 }
 
 .header,
@@ -111,7 +112,7 @@ button {
 .subscription-container {
     color: #f9faf8;
     background-color: #3882f6;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .subscription-container button {
@@ -194,20 +195,33 @@ button {
 }
 
 .quote {
-    height: 400px;
+    min-height: 400px;
     align-items: center;
 }
 
 .quote-text {
-    padding-top: 32px;
-    padding-left: 36px;
-    padding-bottom: 16px;
-    padding-right: 24px;
+    padding: 32px 36px 16px 24px;
 }
 
 .quote-author {
     text-align: right;
     padding-right: 48px;
+}
+
+.subscription {
+    min-height: 300px;
+    align-items: center;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 96px;
+}
+
+.subscription-container button {
+    flex-shrink: 0;
 }
 
 .footer {
