@@ -31,10 +31,20 @@ button {
     
 }
 
+.header-container,
+.quote-container,
+.subscription-container {
+    width: 900px;
+}
+
 .header,
 .footer {
     color: #f9faf8;
     background-color: #1f2937;    
+}
+
+.navbar {
+    padding-top: 16px;
 }
 
 .header-logo a {
@@ -49,9 +59,18 @@ button {
     font-size: 18px;
 }
 
+.hero {
+    min-height: 480px;
+}
+
 .hero-title {
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero-content button {
+    margin-top: 16px;
+    margin-bottom: 8px;
 }
 
 .hero-image {
@@ -92,6 +111,7 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    min-height: 400px;
 }
 
 .quote-container {
@@ -99,6 +119,7 @@ button {
 }
 
 .quote-text {
+    padding: 32px 36px 16px 24px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -107,12 +128,19 @@ button {
 .quote-author{
     font-size: 24px;
     font-weight: 900;
+    text-align: right;
+    padding-right: 48px;
+}
+
+.subscription {
+    min-height: 300px;
 }
 
 .subscription-container {
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 8px;
+    padding: 48px 96px;
 }
 
 .subscription-container button {
@@ -124,15 +152,15 @@ button {
     font-weight: 700;
 }
 
+.footer {
+    min-height: 100px;
+    padding: 48px;
+    text-align: center;
+}
+
 /****************************************/
 /*           FLEX ALIGNMENT             */
 /****************************************/
-
-.header-container,
-.quote-container,
-.subscription-container {
-    width: 900px;
-}
 
 .header,
 .quote,
@@ -142,7 +170,6 @@ button {
 }
 
 .navbar {
-    padding-top: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -155,7 +182,6 @@ button {
 }
 
 .hero {
-    height: 480px;
     display: flex;
     align-items: center;
 }
@@ -170,8 +196,6 @@ button {
 }
 
 .hero-content button {
-    margin-top: 16px;
-    margin-bottom: 8px;
     flex-shrink: 0;
 }
 
@@ -196,21 +220,10 @@ button {
 }
 
 .quote {
-    min-height: 400px;
     align-items: center;
 }
 
-.quote-text {
-    padding: 32px 36px 16px 24px;
-}
-
-.quote-author {
-    text-align: right;
-    padding-right: 48px;
-}
-
 .subscription {
-    min-height: 300px;
     align-items: center;
 }
 
@@ -218,17 +231,10 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px 96px;
 }
 
 .subscription-container button {
     flex-shrink: 0;
 }
 
-.footer {
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
